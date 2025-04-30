@@ -119,12 +119,12 @@ No manual SSL toggle needed — the port determines the mode.
 
 ```
 rabbit-hunter.exe peek \
-  --host message-broker.integration.regionstockholm.se \
+  --host myrabbit.com \
   --port 5671 \
-  --username pdms \
+  --username myuser \
   --password mypassword \
-  --vhost pdms \
-  --queue takecare-juno
+  --vhost myvhost \
+  --queue myqueue
 ```
 
 ## 📄 License
