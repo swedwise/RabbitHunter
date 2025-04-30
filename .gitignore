@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pypackages__/
+*egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+test_*.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Flask/Django stuff:
+instance/
+.webassets-cache
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyInstaller
+#  Often these files are large, and are better off excluded from version control
+*.spec
+
+# pytest
+.cache/
+
+# VS Code settings
+.vscode/
+
+# Local configuration files
+*.env
+*.local
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
