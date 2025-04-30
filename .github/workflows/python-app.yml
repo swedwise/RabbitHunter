@@ -35,7 +35,7 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Build wheel
-      run: python build -m .
+      run: python -m build .
     - name: PyInstaller
       run: pyinstaller --name rabbit-hunter --onefile ./rabbithunter/__main__.py
     - name: Upload Wheel and Exe
