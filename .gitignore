@@ -15,6 +15,9 @@ env.bak/
 venv.bak/
 __pypackages__/
 *egg-info/
+build/
+dist/
+*.spec
 
 # Installer logs
 pip-log.txt
